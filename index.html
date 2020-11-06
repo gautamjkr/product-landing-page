@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="https://cdn4.iconfinder.com/data/icons/business-and-marketing-21/32/business_marketing_advertising_global-256.png"
+                alt="Company Logo" id="header-img">
+            <h1>News Market</h1>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#description" class="nav-link">How it works</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="subscription">
+            <h1>Subscribe to our Newsletter</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter your email" name="email" required>
+                <input type="submit" id="submit">
+            </form>
+        </section>
+
+        <section id="features" class="features">
+
+            <div class="features-content">
+                <div class="icon">
+                    <img src="https://cdn0.iconfinder.com/data/icons/printing-line-traditional-publishing/512/book_print-256.png"
+                        alt="Magazine Icon">
+                </div>
+                <div class="icon-text">
+                    <h2>Magazines</h2>
+                    <p>Premium magazines available at lower cost</p>
+                </div>
+            </div>
+
+            <div class="features-content">
+                <div class="icon">
+                    <img src="https://cdn4.iconfinder.com/data/icons/business-finance-vol-12-2/512/4-256.png"
+                        alt="Newspaper Icon">
+                </div>
+                <div class="icon-text">
+                    <h2>Newspaper</h2>
+                    <p>Local newspaper available throughout the country</p>
+                </div>
+            </div>
+
+            <div class="features-content">
+                <div class="icon">
+                    <img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/video_camera-256.png"
+                        alt="Ground Report Icon">
+                </div>
+                <div class="icon-text">
+                    <h2>Ground Reports</h2>
+                    <p>Exclusive ground reports from various news organization</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="description" class="description">
+            <iframe width="540" height="360" src="https://www.youtube.com/embed/tgbNymZ7vqY" id="video">
+            </iframe>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="product">
+                <div class="product-name">
+                    <h2>FREE</h2>
+                </div>
+
+                <div class="product-price">
+                    <h3>$0</h3>
+                </div>
+
+                <div class="product-specification">
+                    <ul>
+                        <li>Free articles</li>
+                        <li>Free newspapers</li>
+                        <li>Free Magazines</li>
+                        <li>No Subscription Option</li>
+                    </ul>
+                </div>
+                <button class="product-select">SELECT</button>
+            </div>
+
+            <div class="product">
+                <div class="product-name">
+                    <h2>PREMIUM</h2>
+                </div>
+
+                <div class="product-price">
+                    <h3>$50</h3>
+                </div>
+
+                <div class="product-specification">
+                    <ul>
+                        <li>All articles</li>
+                        <li>Premium newspapers</li>
+                        <li>Premium Magazines</li>
+                        <li>Subscription Option</li>
+                        <li>Personalized content</li>
+                    </ul>
+                </div>
+                <button class="product-select">SELECT</button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <ul>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Terms & Conditions</li>
+        </ul>
+
+        <span>&copy; 2020, News Market<span>
+    </footer>
+
+</body>
+
+</html>
